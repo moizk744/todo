@@ -1,0 +1,32 @@
+h1 {
+    font-weight: 800 !important;
+    font-size: 52px !important;
+}
+
+
+
+.list_container {
+    list-style: none !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.list_container li {
+    padding: 5px !important;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_container li button {
+    margin-left: auto;
+}
+
+.list_container li span {
+    overflow: hidden;
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;    
+    flex-grow: 1
+}
